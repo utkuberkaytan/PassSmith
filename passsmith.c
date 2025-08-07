@@ -292,7 +292,7 @@ int main(int argc, char *argv[]) {
         for(int i = 0; i < 7; i++) {
             printf("%s", banner[i]);
         }
-        printf("\nPassSmith v2.0 - Target-Based Password Generator\n");
+        printf("\nPassSmith v1.0 - Target-Based Password Generator\n");
         printf("═══════════════════════════════════════════════════\n");
     }
     
@@ -325,3 +325,4 @@ int main(int argc, char *argv[]) {
     cleanup_config(&config);
     return result;
 }
+
